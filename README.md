@@ -35,7 +35,7 @@ IRSTD-Air dataset
 
 ## Usage
 
-@ARTICLE{10559654,
+    @ARTICLE{10559654,
   author={Yang, Huoren and Mu, Tingkui and Dong, Ziyue and Zhang, Zicheng and Wang, Bin and Ke, Wei and Yang, Qiujie and He, Zhiping},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={PBT: Progressive Background-Aware Transformer for Infrared Small Target Detection}, 
