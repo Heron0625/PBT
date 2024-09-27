@@ -105,7 +105,7 @@ class TrainSetLoader(Dataset):
         img = Image.fromarray(cv2.cvtColor(img_1, cv2.COLOR_BGR2RGB))
         mask = Image.fromarray(cv2.cvtColor(mask_1, cv2.COLOR_BGR2GRAY))
 
-        return img, mask,
+        return img, mask
 
 
 
@@ -125,7 +125,7 @@ class TrainSetLoader(Dataset):
         else:
             prior = None
         # synchronized transform
-        img, mask, prior = self._sync_transform(img=img, mask=mask, prior=prior)
+        img, mask = self._sync_transform(img=img, mask=mask)
 
         # general resize, normalize and toTensor
         if self.transform is not None:
@@ -136,7 +136,7 @@ class TrainSetLoader(Dataset):
             prior = torch.from_numpy(prior)
         else:
             prior = torch.zeros(1)
-        return img, torch.from_numpy(mask), prior, #img_id[-1]
+        return img, torch.from_numpy(mask)
 
     def __len__(self):
         return len(self._items)
