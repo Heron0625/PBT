@@ -35,6 +35,16 @@ IRSTD-Air dataset
 
 ## Usage
 
+@ARTICLE{10559654,
+  author={Yang, Huoren and Mu, Tingkui and Dong, Ziyue and Zhang, Zicheng and Wang, Bin and Ke, Wei and Yang, Qiujie and He, Zhiping},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={PBT: Progressive Background-Aware Transformer for Infrared Small Target Detection}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-13},
+  keywords={Decoding;Feature extraction;Object detection;Task analysis;Transformers;Encoding;Semantics;Background context;cross-attention;infrared small target detection (IRSTD);vision transformer},
+  doi={10.1109/TGRS.2024.3415080}}
 
 
 ## License
