@@ -1,6 +1,8 @@
 # PBT: Progressive Background-Aware Transformer for Infrared Small Target Detection
 🎉 We are excited to announce that our paper titled "PBT: Progressive Background-Aware Transformer for Infrared Small Target Detection" has been accepted for publication! 🎉
+
 https://ieeexplore.ieee.org/document/10559654
+
 2024-09-27  :   we fixed some bugs
 
 Welcome to my GitHub repository. This repository contains some important data and information.
