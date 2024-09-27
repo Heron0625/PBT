@@ -14,7 +14,7 @@ dataset:
     split_method: "6_4"
     size: 512
     model: PBT
-    batch: 8
+    batch: 4
     aug: 0.
   NUDT-SIRST:
     split_method: "6_4"
