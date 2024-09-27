@@ -103,7 +103,7 @@ def main(args):
     val_data = DataLoader(dataset=valset, batch_size=args.batch_size, num_workers=args.workers,
                            drop_last=False)
 
-    model = WindowHGCTNet(num_classes=1,input_channels=3, num_blocks=[2, 2, 2, 2, 2], nb_filter=[ 16, 32, 64, 128, 256, 524, 1024],
+    model = WindowPBTNet(num_classes=1,input_channels=3, num_blocks=[2, 2, 2, 2, 2], nb_filter=[ 16, 32, 64, 128, 256, 524, 1024],
                      deep_supervision=False, depth=[1, 2, 2, 2, 2], drop=0.1, attn_drop=0.1, drop_path=0.1,mlp_ratio=4.,
                      # heads=[[1, 1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1], [1, 1], [1]], token_projection='linear',
                      heads=[[1, 1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1], [1, 1], [1]], token_projection='linear',
